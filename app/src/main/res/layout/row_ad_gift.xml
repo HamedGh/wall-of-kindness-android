@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginBottom="4dp"
+	                android:layout_marginLeft="8dp"
+	                android:layout_marginRight="8dp"
+	                android:layout_marginTop="4dp"
+	                android:background="@color/white">
+
+		<ImageView
+			android:id="@+id/row_imageview"
+			android:layout_width="118dp"
+			android:layout_height="118dp"
+			android:layout_alignParentLeft="true"
+			android:src="@drawable/book_default"/>
+
+		<hamed_gh.ir.divaaremehrabani.customviews.textviews.TextViewIranSansRegular
+			android:id="@+id/row_title_textview"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignTop="@id/row_imageview"
+			android:layout_marginLeft="12dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginTop="4dp"
+			android:layout_toRightOf="@id/row_imageview"
+
+			android:ellipsize="end"
+			android:gravity="right"
+			android:lines="2"
+
+			android:text="کتاب شاهنامه نوشته فردوسی در قرن ۷ مناسب برای بزرگسالان که هنوز به فرهنگ اهمیت میدهند"
+			android:textColor="@color/black"
+			android:textSize="14sp"/>
+
+
+		<ImageView
+			android:id="@+id/row_ad_gift_location_icon"
+			android:layout_width="18dp"
+			android:layout_height="18dp"
+
+			android:layout_alignRight="@id/row_title_textview"
+			android:layout_below="@id/row_title_textview"
+			android:layout_marginTop="8dp"
+			android:src="@mipmap/ic_location_on_black_18dp"/>
+
+		<hamed_gh.ir.divaaremehrabani.customviews.textviews.TextViewIranSansRegular
+			android:id="@+id/row_ad_gift_location_tv"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+
+			android:layout_alignBottom="@id/row_ad_gift_location_icon"
+			android:layout_marginRight="4dp"
+
+			android:layout_toLeftOf="@id/row_ad_gift_location_icon"
+
+			android:ellipsize="end"
+			android:gravity="right"
+
+			android:text="عباس آباد"
+			android:textColor="@color/grey_600"
+			android:textSize="11sp"/>
+
+
+		<hamed_gh.ir.divaaremehrabani.customviews.textviews.TextViewIranSansRegular
+			android:id="@+id/row_ad_gift_time_tv"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+
+			android:layout_alignRight="@id/row_ad_gift_location_icon"
+			android:layout_below="@id/row_ad_gift_location_icon"
+
+			android:layout_marginRight="12dp"
+			android:layout_marginTop="4dp"
+
+			android:ellipsize="end"
+			android:gravity="right"
+
+			android:text="دقایقی پیش"
+			android:textColor="@color/grey_600"
+			android:textSize="12sp"/>
+
+	</RelativeLayout>
+
+</RelativeLayout>

@@ -1,2 +1,2 @@
-# wall-of-kindness-android
-Wall of Kindness Android Application
+# DivaarMehrabani
+A wall to share our resources
